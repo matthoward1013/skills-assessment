@@ -83,6 +83,7 @@
                             <div class="contact-phone hide">
                                 323.555.1234
                             </div>
+                            <div class="dropdown hide">555.555.5555<br />6539 Wilton Ave.<br />Culver City CA 90234</div>
                         </td>
                     </tr>
                     <tr class="row">
@@ -111,7 +112,7 @@
                     </tr>
                 </table>
                 <div class="footer">
-                    <select name="options" id="options">
+                    <select onchange="toggleInfo()" name="options" id="options">
                         <option value="email" selected>Email address</option>
                         <option value="phone">Phone number</option>
                     </select>
