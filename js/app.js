@@ -11,3 +11,5 @@ var toggleInfo = function toggleInfo() {
         phones[i].classList.toggle("hide");
     }
 };
+
+/*Code here would be for the dropdown menu*/
