@@ -103,18 +103,7 @@ h1 {
 .row:nth-child(even) {
     background-color: #1a1a1a;
 }
-.Shape_4 {
-    background-color: rgb(33, 33, 33);
-    position: absolute;
-    left: 33px;
-    top: 163px;
-    width: 283px;
-    height: 35px;
-    z-index: 7;
-  }
-  
-  
-  
+
 td {
     margin: 0;
     border-top: .75px solid #131313;
@@ -149,7 +138,7 @@ td {
     background-color: rgb(195, 193, 24);
 }
 .contact-name {
-    padding-left: 5px;
+    padding-left: 0px;
     
 }
 .contact-email, .contact-phone {
@@ -160,22 +149,42 @@ td {
     background-color: #484848;
     color: white;
     display: block;
-    height: 60px;
-    width: 100%;
     text-align: left;
     position: absolute;
     top: 0px;
     z-index: 100;
+    margin-left: -3px;
+    padding-left: 23px;
+    padding-right: 18px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    line-height: 1.2;
 }
 
-a {
+.dropdown-name {
+    background-color: #484848;
+    color: white;
+    display: block;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 100;
+}
+.contact-email a {
     text-decoration: none;
     color: #4a4a4a;
 }
 
-a:hover {
+.contact-email a:hover {
     color: #4a4a4a;
 }
+
+.dropdown a {
+    color: rgb(0, 246, 255);
+}
+  
 
 .contact-info {
     border-left: 1px solid #1c1c1c;
