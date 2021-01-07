@@ -10,7 +10,9 @@
         <div class="main" style="background-color: white; padding: 20px;">
             <div class="container">
                 <div class="head">
-                    <h1>Contacts</h1>
+                    <div class="title">
+                        <h1>Contacts</h1>
+                    </div>
                 </div>
                 <table class="contacts">
                     <tr class="row">
@@ -74,7 +76,7 @@
                         </td>
                     </tr>
                     <tr class="row">
-                        <td class="circle"><div class="contact-circle yellow"></div></td>
+                        <td class="circle"><div class="contact-circle orange"></div></td>
                         <td class="contact-name">Tim</td>
                         <td onclick="toggleDropdown()" class="contact-info">
                             <div class="contact-email">
@@ -112,11 +114,12 @@
                     </tr>
                 </table>
                 <div class="footer">
-                    
-                    <select onchange="toggleInfo()" name="options" id="options">
-                        <option value="email" selected>Email address</option>
-                        <option value="phone">Phone number</option>
-                    </select>
+                    <div class="toggle-bar">
+                        <select onchange="toggleInfo()" name="options" id="options">
+                            <option value="email" selected>Email address</option>
+                            <option value="phone">Phone number</option>
+                        </select>
+                    </div>
                 </div>
             </div>
         </div>
