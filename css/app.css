@@ -145,6 +145,10 @@ td {
     padding-left: 18px;
 }
 
+.contact-phone {
+    color: #4a4a4a;
+}
+
 .dropdown {
     background-color: #484848;
     color: white;
