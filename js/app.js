@@ -1,5 +1,5 @@
 "use strict";
-
+/*Starting Fresh*/
 
 var contacts = document.getElementsByClassName("contacts");
 
