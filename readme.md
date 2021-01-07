@@ -1,6 +1,6 @@
-## Matt McCue Skills Assessment Attempt
+## Matt McCue Skills Assessment Attempt #2
 
-With trying to keep within 4 hours, I've managed to complete everything besides the dropdown menu for each contact. My JavaScript is a litty rusty, but now I know what I need to work on. 
+With this second attempt, I felt more confident and achieved the look I wanted. Finished at around the 4-hour mark. 
 
 ---
 
