@@ -1,1 +1,168 @@
 /*Starting fresh*/
+
+body {
+    font-family: Helvetica;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 80vw;
+    margin: 25px auto;
+}
+
+.container {
+    width: 275px;
+    height: 392px;
+    background-color: #131313;
+    border: 2px solid #494949;
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+.head {
+    background-image: -moz-linear-gradient( 90deg, rgb(20,20,20) 0%, rgb(70,70,70) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(20,20,20) 0%, rgb(70,70,70) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(20,20,20) 0%, rgb(70,70,70) 100%);
+    /*box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.75);*/
+    border-radius: 10px 10px 0px 0px;
+    height: 55px;
+    overflow: hidden;
+}
+
+.footer {
+    height: 47px;
+    /*background-image: -moz-linear-gradient( 90deg, rgb(0,0,0,0.21) 0%, rgb(255,255,255,0.21) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0,0.21) 0%, rgb(255,255,255,0.21) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(0,0,0,0.21) 0%, rgb(255,255,255,0.21) 100%);*/
+    background-color: #202020;
+    box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 0px 0px 10px 10px;
+    text-align: right;
+    overflow: hidden;
+    position: relative;
+}
+  
+  
+  
+select {
+    font-size: 12px;
+    margin-right: 14px;
+}
+
+h1 {
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-left: 18px;
+    letter-spacing: 0.5px;
+}
+  
+.contacts {
+    color: white;
+    width: 100%;
+    height: 290px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 1px black solid;
+    border-spacing: 0px;
+    border-collapse: separate;
+}
+
+.row {
+    font-size: 12px;
+    text-align: left;    
+}
+
+.row:nth-child(odd) {
+    background-color: #212121;
+}
+
+.row:nth-child(even) {
+    background-color: #1A1A1A;
+}
+
+td {
+    margin: 0;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+}
+
+.contact-circle {
+    text-align: center;
+    height: 8px;
+    width: 8px;
+    margin-left: 10px;
+    position: relative;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.green {
+    background-color: limegreen;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red
+}
+
+.contact-name {
+    padding-left: 5px;
+    
+}
+.contact-name:hover {
+    cursor: pointer;
+}
+
+.dropdown {
+    background-color: #484848;
+    padding-top: 10px;
+    color: white;
+    display: block;
+    height: 60px;
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+    position: absolute;
+    top: 40px;
+    z-index: 100;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+.contact-info {
+    border-left: 3px black solid;
+    padding-left: 10px;
+    color: grey;
+    margin: auto;
+    width: 150px;
+}
+
+.hide {
+    display: none;
+}
+
+.scott_mailinator_com {
+  font-size: 12px;
+  font-family: "Helvetica";
+  color: rgb(0, 246, 255);
+  text-decoration: underline;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 783px;
+  top: 172.792px;
+  z-index: 237;
+}
