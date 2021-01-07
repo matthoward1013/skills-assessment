@@ -15,9 +15,17 @@
                     </div>
                 </div>
                 <table class="contacts">
-                    <tr class="row">
-                        <td class="circle"><div class="contact-circle green"></div></td>
-                        <td class="contact-name">Christian</td>
+                    <tr onmouseenter="dropdownHover(this)" onmouseleave="dropdownLeave(this)" class="row">
+                        <div style="position: relative;">
+                            <td class="circle">
+                                <div class="contact-circle green"></div>
+                                <div class="drop dropdown-name hide"><div class="contact-circle green"></div></div>
+                            </td>
+                            <td class="contact-name">Christian
+                                <div class="drop dropdown-name hide">Christian</div>
+                            </td>
+                        </div>
+                        
                         <td class="contact-info">
                             <div class="contact-email">
                                 <a href="mailto:christian@yahoo.com">christian@yahoo.com</a>
@@ -25,11 +33,24 @@
                             <div class="contact-phone hide">
                                 323.555.1234
                             </div>
+                            <div class="drop dropdown hide">
+                                <a href="mailto:christian@yahoo.com">christian@yahoo.com</a><br><br>
+                                555.555.5555<br><br>
+                                6539 Wilton Ave.<br>Culver City CA 90234
+                            </div>
                         </td>
                     </tr>
-                    <tr class="row">
-                        <td class="circle"><div class="contact-circle green"></div></td>
-                        <td class="contact-name">Rich</td>
+                    <tr onmouseenter="dropdownHover(this)" onmouseleave="dropdownLeave(this)" class="row">
+                        <div style="position: relative;">
+                            <td class="circle">
+                                <div class="contact-circle green"></div>
+                                <div class="drop dropdown-name hide"><div class="contact-circle green"></div></div>
+                            </td>
+                            <td class="contact-name">Rich
+                                <div class="drop dropdown-name hide">Rich</div>
+                            </td>
+                        </div>
+                        
                         <td class="contact-info">
                             <div class="contact-email">
                                 <a href="mailto:rich@tripod.com">rich@tripod.com</a>
@@ -37,17 +58,35 @@
                             <div class="contact-phone hide">
                                 323.555.1234
                             </div>
+                            <div class="drop dropdown hide">
+                                <a href="mailto:rich@tripod.com">rich@tripod.com</a><br><br>
+                                555.555.5555<br><br>
+                                6539 Wilton Ave.<br>Culver City CA 90234
+                            </div>
                         </td>
                     </tr>
-                    <tr class="row">
-                        <td class="circle"><div class="contact-circle green"></div></td>
-                        <td class="contact-name">Scott</td>
+                    <tr onmouseenter="dropdownHover(this)" onmouseleave="dropdownLeave(this)" class="row">
+                        <div style="position: relative;">
+                            <td class="circle">
+                                <div class="contact-circle green"></div>
+                                <div class="drop dropdown-name hide"><div class="contact-circle green"></div></div>
+                            </td>
+                            <td class="contact-name">Scott
+                                <div class="drop dropdown-name hide">Scott</div>
+                            </td>
+                        </div>
+                        
                         <td class="contact-info">
                             <div class="contact-email">
                                 <a href="mailto:scott@mailinator.com">scott@mailinator.com</a>
                             </div>
                             <div class="contact-phone hide">
                                 323.555.1234
+                            </div>
+                            <div class="drop dropdown hide">
+                                <a href="mailto:scott@mailinator.com">scott@mailinator.com</a><br><br>
+                                555.555.5555<br><br>
+                                6539 Wilton Ave.<br>Culver City CA 90234
                             </div>
                         </td>
                     </tr>
@@ -76,9 +115,17 @@
                             </div>
                         </td>
                     </tr>
-                    <tr class="row">
-                        <td><div class="contact-circle red"></div></td>
-                        <td class="contact-name">Taka</td>
+                    <tr onmouseenter="dropdownHover(this)" onmouseleave="dropdownLeave(this)" class="row">
+                        <div style="position: relative;">
+                            <td class="circle">
+                                <div class="contact-circle red"></div>
+                                <div class="drop dropdown-name hide"><div class="contact-circle red"></div></div>
+                            </td>
+                            <td class="contact-name">Taka
+                                <div class="drop dropdown-name hide">Taka</div>
+                            </td>
+                        </div>
+                        
                         <td class="contact-info">
                             <div class="contact-email">
                                 <a href="mailto:taka@myspace.com">taka@myspace.com</a>
@@ -86,24 +133,49 @@
                             <div class="contact-phone hide">
                                 323.555.1234
                             </div>
+                            <div class="drop dropdown hide">
+                                <a href="mailto:taka@myspace.com">taka@myspace.com</a><br><br>
+                                555.555.5555<br><br>
+                                6539 Wilton Ave.<br>Culver City CA 90234
+                            </div>
                         </td>
                     </tr>
-                    <tr class="row">
-                        <td class="circle"><div class="contact-circle orange"></div></td>
-                        <td class="contact-name">Tim</td>
-                        <td onclick="toggleDropdown()" class="contact-info">
+                    <tr onmouseenter="dropdownHover(this)" onmouseleave="dropdownLeave(this)" class="row">
+                        <div style="position: relative;">
+                            <td class="circle">
+                                <div class="contact-circle orange"></div>
+                                <div class="drop dropdown-name hide"><div class="contact-circle orange"></div></div>
+                            </td>
+                            <td class="contact-name">Tim
+                                <div class="drop dropdown-name hide">Tim</div>
+                            </td>
+                        </div>
+                        
+                        <td class="contact-info">
                             <div class="contact-email">
                                 <a href="mailto:tim@netscape.com">tim@netscape.com</a>
                             </div>
                             <div class="contact-phone hide">
                                 323.555.1234
                             </div>
-                            <div class="dropdown hide">555.555.5555<br />6539 Wilton Ave.<br />Culver City CA 90234</div>
+                            <div class="drop dropdown hide">
+                                <a href="mailto:tim@netscape.com">tim@netscape.com</a><br><br>
+                                555.555.5555<br><br>
+                                6539 Wilton Ave.<br>Culver City CA 90234
+                            </div>
                         </td>
                     </tr>
-                    <tr class="row">
-                        <td class="circle"><div class="contact-circle green"></div></td>
-                        <td class="contact-name">Patrick</td>
+                    <tr onmouseenter="dropdownHover(this)" onmouseleave="dropdownLeave(this)" class="row">
+                        <div style="position: relative;">
+                            <td class="circle">
+                                <div class="contact-circle green"></div>
+                                <div class="drop dropdown-name hide"><div class="contact-circle green"></div></div>
+                            </td>
+                            <td class="contact-name">Patrick
+                                <div class="drop dropdown-name hide">Patrick</div>
+                            </td>
+                        </div>
+                        
                         <td class="contact-info">
                             <div class="contact-email">
                                 <a href="mailto:patrick@live.com">patrick@live.com</a>
@@ -111,17 +183,35 @@
                             <div class="contact-phone hide">
                                 323.555.1234
                             </div>
+                            <div class="drop dropdown hide">
+                                <a href="mailto:patrick@live.com">patrick@live.com</a><br><br>
+                                555.555.5555<br><br>
+                                6539 Wilton Ave.<br>Culver City CA 90234
+                            </div>
                         </td>
                     </tr>
-                    <tr onmouseenter="dropdownHover(this)" class="row">
-                        <td class="circle"><div class="contact-circle yellow"></div></td>
-                        <td class="contact-name">Jacques</td>
+                    <tr onmouseenter="dropdownHover(this)" onmouseleave="dropdownLeave(this)" class="row">
+                        <div style="position: relative;">
+                            <td class="circle">
+                                <div class="contact-circle yellow"></div>
+                                <div class="drop dropdown-name hide"><div class="contact-circle yellow"></div></div>
+                            </td>
+                            <td class="contact-name">Jacques
+                                <div class="drop dropdown-name hide">Jacques</div>
+                            </td>
+                        </div>
+                        
                         <td class="contact-info">
                             <div class="contact-email">
                                 <a href="mailto:jacques@aol.com">jacques@aol.com</a>
                             </div>
                             <div class="contact-phone hide">
                                 323.555.1234
+                            </div>
+                            <div class="drop dropdown hide">
+                                <a href="mailto:jacques@aol.com">jacques@aol.com</a><br><br>
+                                555.555.5555<br><br>
+                                6539 Wilton Ave.<br>Culver City CA 90234
                             </div>
                         </td>
                     </tr>
